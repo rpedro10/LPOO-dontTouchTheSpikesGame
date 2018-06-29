@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" nextobjectid="81">
+ <tileset firstgid="1" name="circle" tilewidth="32" tileheight="32" tilecount="375" columns="15">
+  <image source="circle.png" width="480" height="800"/>
+ </tileset>
+ <tileset firstgid="376" name="leftspike" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="leftspike.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="377" name="bottomspike" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="bottomspike.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="378" name="rightspike" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="rightspike.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="379" name="upspike" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="upspike.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="380" name="full" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="full.png" width="32" height="32"/>
+ </tileset>
+ <layer name="bg" width="15" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyl00XIFUAYhtFrBwp2g91it9j6G9gt2A12g91gN9gNdoPdYDfYDXaD3XiuuBhd6uLAO4uHWX3DYkUiw/5TikgkkpJUpCYNaUlHejKQkUyRP7ss3lnJRnZykJNc5CYPeclHfgoEfSG7MEUoSjGKU4KSlKI0ZShLuaCtYFekEpWpQlWqUZ0YalCTWtQO2rp2PerTgIY0ojFNaEozmtOClkHbym5NG9rSjvZ0oCOd6EwXutItaLvbPehJL3rTh770oz8DGMggBgftEHto9M1wRjCSUYxmDGMZx3gmBO1EexKTmcJUpjGdGcxkFrOZw9ygnWfPZwELWcRilrCUZSxnBStZFbSr7TWsZR3r2cBGNrGZLWxlG9uDdoe9k13sZg972cd+DnCQQxzmSNAetY9xnBOc5BSnOcNZznGeC1wM2kv2Za5wlWtc5wY3ucVt7nCXe0F7337AQx7xmCc85RnPecFLXvE6aN/Yb3nHez7wkU985gtf+cZ3fgRtLGITh7jEIz4JSEgiEpObJCQN7jcZyaP3T0pSkZo0pCUd6clARjIFbebo/ZOVbGQnBznJ9fu/POQlH/mDtmD0/ilMEYpSjOKUoCSlKE0ZygZt+ej9U5FKVKYKValGdWKoQU1qBW2d6P1Tj/o0oCGNaEwTmtKM5rQI2l/3T2va0JZ2tKcDHelEZ7r81f2rn5Sipyo=
+  </data>
+ </layer>
+ <layer name="spikes" width="15" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcVDMSj5FBBSN283CBKiT1o3pH9Y7qHdU7VPSCQCUj8ZgaAAAYSh6X
+  </data>
+ </layer>
+ <objectgroup name="spikes">
+  <object id="79" x="0" y="0" width="480" height="64"/>
+  <object id="80" x="0" y="736" width="480" height="64"/>
+ </objectgroup>
+ <objectgroup name="wall">
+  <object id="76" x="0" y="64" width="32" height="672"/>
+  <object id="77" x="448" y="64" width="32" height="672"/>
+ </objectgroup>
+ <objectgroup name="left spikes">
+  <object id="33" x="32" y="64" width="32" height="32"/>
+  <object id="34" x="32" y="96" width="32" height="32"/>
+  <object id="35" x="32" y="128" width="32" height="32"/>
+  <object id="36" x="32" y="160" width="32" height="32"/>
+  <object id="37" x="32" y="192" width="32" height="32"/>
+  <object id="38" x="32" y="224" width="32" height="32"/>
+  <object id="39" x="32" y="256" width="32" height="32"/>
+  <object id="40" x="32" y="288" width="32" height="32"/>
+  <object id="41" x="32" y="320" width="32" height="32"/>
+  <object id="42" x="32" y="352" width="32" height="32"/>
+  <object id="43" x="32" y="384" width="32" height="32"/>
+  <object id="44" x="32" y="416" width="32" height="32"/>
+  <object id="45" x="32" y="448" width="32" height="32"/>
+  <object id="46" x="32" y="480" width="32" height="32"/>
+  <object id="47" x="32" y="512" width="32" height="32"/>
+  <object id="48" x="32" y="544" width="32" height="32"/>
+  <object id="49" x="32" y="576" width="32" height="32"/>
+  <object id="50" x="32" y="608" width="32" height="32"/>
+  <object id="51" x="32" y="640" width="32" height="32"/>
+  <object id="52" x="32" y="672" width="32" height="32"/>
+  <object id="53" x="32" y="704" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="righ tspikes">
+  <object id="54" x="416" y="64" width="32" height="32"/>
+  <object id="55" x="416" y="96" width="32" height="32"/>
+  <object id="56" x="416" y="128" width="32" height="32"/>
+  <object id="57" x="416" y="160" width="32" height="32"/>
+  <object id="58" x="416" y="192" width="32" height="32"/>
+  <object id="59" x="416" y="224" width="32" height="32"/>
+  <object id="60" x="416" y="256" width="32" height="32"/>
+  <object id="61" x="416" y="288" width="32" height="32"/>
+  <object id="62" x="416" y="320" width="32" height="32"/>
+  <object id="63" x="416" y="352" width="32" height="32"/>
+  <object id="64" x="416" y="384" width="32" height="32"/>
+  <object id="65" x="416" y="416" width="32" height="32"/>
+  <object id="66" x="416" y="448" width="32" height="32"/>
+  <object id="67" x="416" y="480" width="32" height="32"/>
+  <object id="68" x="416" y="512" width="32" height="32"/>
+  <object id="69" x="416" y="544" width="32" height="32"/>
+  <object id="70" x="416" y="576" width="32" height="32"/>
+  <object id="71" x="416" y="608" width="32" height="32"/>
+  <object id="72" x="416" y="640" width="32" height="32"/>
+  <object id="73" x="416" y="672" width="32" height="32"/>
+  <object id="74" x="416" y="704" width="32" height="32"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,33 @@
+
+bird_all.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bird-sprite
+  rotate: false
+  xy: 1, 415
+  size: 918, 506
+  orig: 918, 506
+  offset: 0, 0
+  index: -1
+candy
+  rotate: false
+  xy: 1, 65
+  size: 700, 348
+  orig: 700, 348
+  offset: 0, 0
+  index: -1
+final_spike_left
+  rotate: false
+  xy: 921, 858
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+final_spike_right
+  rotate: false
+  xy: 1, 1
+  size: 71, 62
+  orig: 71, 62
+  offset: 0, 0
+  index: -1

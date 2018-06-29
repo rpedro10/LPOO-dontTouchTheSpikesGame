@@ -1,0 +1,31 @@
+
+candyp.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+candy2
+  rotate: false
+  xy: 1, 351
+  size: 700, 532
+  orig: 700, 532
+  offset: 0, 0
+  index: -1
+candy
+  rotate: false
+  xy: 1, 1
+  size: 700, 348
+  orig: 700, 348
+  offset: 0, 0
+  index: -1
+
+candyp2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+candy3
+  rotate: false
+  xy: 1, 1
+  size: 500, 510
+  orig: 500, 510
+  offset: 0, 0
+  index: -1

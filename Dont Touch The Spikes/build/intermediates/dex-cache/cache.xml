@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="567c8b517bcde60027e763834c7dcd2059ba8f36">
+        <dex dex="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4c0e4dceff755dd992ad63d139f38b85089ba4bd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Catarina\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-box2d\1.9.2\b78eaa90aaaf7830e6dffff587ea6e859c2787b2\gdx-box2d-1.9.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b78eaa90aaaf7830e6dffff587ea6e859c2787b2">
+        <dex dex="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\transforms\dex\debug\folders\1000\10\gdx-box2d-1.9.2_2bb14a2a5f95e520f0e9767a0bd21638359a3a87\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Catarina\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx\1.9.2\e641cb91bec06bc64d9ddf7a7d7062caceec73cd\gdx-1.9.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e641cb91bec06bc64d9ddf7a7d7062caceec73cd">
+        <dex dex="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\transforms\dex\debug\folders\1000\10\gdx-1.9.2_dc68bde3a00733fa138ab02d4bfe843c5a26ba67\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Catarina\.gradle\caches\modules-2\files-2.1\com.badlogicgames.gdx\gdx-backend-android\1.9.2\342b830bc718dc1965c8f13fc58dc500e8bd262f\gdx-backend-android-1.9.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="342b830bc718dc1965c8f13fc58dc500e8bd262f">
+        <dex dex="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\transforms\dex\debug\folders\1000\10\gdx-backend-android-1.9.2_6e4f20b1c0e8168a0a2b5e3e6a9f6d416c70bcb9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="31d309d7f00a4f2273a753abca6e9b1f342f9880">
+        <dex dex="C:\Users\Catarina\Documents\Dont Touch The Spikes\android\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_62935b011688f6cfea5bceadbc9b99b67dc8321e\classes.dex" />
+    </item>
+
+</items>
